@@ -10,3 +10,19 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.divv{
+    background-color:#EAECEF;
+}
+
+
+.cards{
+    margin-top: 0%;
+}
+
+.footer{
+    color: white;
+    padding-top: 24px;
+    height: 80px;
+   text-align: center;
+   font-size: 15px;
+}

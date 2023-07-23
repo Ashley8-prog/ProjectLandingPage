@@ -12,21 +12,25 @@ import Footer from "./footer";
 const Home = () => {
 	return (
 		<>
-			<div className="container">
+			<div className="container-fluid">
 				<Navbar />
-				<div className="container divv">
-					<Jumbotron />
-				</div>
-				<div className="row">
-					<Cards col-3 />
-					<Cards col-3 />
-					<Cards col-3 />
-					<Cards col-3 />
-				</div>
 			</div>
-			<div>
-			<Footer/>
+
+			<div className="container divv">
+				<Jumbotron />
 			</div>
+			<div className="row cartas">
+				<Cards col-3 />
+				<Cards col-3 />
+				<Cards col-3 />
+				<Cards col-3 />
+			</div>
+
+			<div className="container-fluid">
+				<Footer />
+			</div>
+
+
 		</>
 	);
 };
